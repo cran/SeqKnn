@@ -1,0 +1,17 @@
+Entry: SeqKNN
+Aliases: SeqKNN
+Keywords: classes
+Description: Sequential KNN imputation method
+URL: ../../../library/SeqKnn/html/SeqKNN.html
+
+Entry: khan05
+Aliases: khan05
+Keywords: datasets
+Description: Khan et al.'s Small Round Blood Cell Tumor(SRBCT) data
+URL: ../../../library/SeqKnn/html/khan05.html
+
+Entry: nnmiss
+Aliases: nnmiss
+Keywords: classes
+Description: Selects k nearest neighbors and calculates weighted mean of them
+URL: ../../../library/SeqKnn/html/nnmiss.html

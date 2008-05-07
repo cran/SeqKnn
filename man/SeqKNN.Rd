@@ -1,6 +1,5 @@
 \name{SeqKNN}
 \alias{SeqKNN}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Sequential KNN imputation method}
 \description{
 This function estimates missing values sequentially from the gene that has least missing rate in microarray data, using weighted mean of k nearest neighbors. This function requires 'nnmiss'.
@@ -8,7 +7,7 @@ This function estimates missing values sequentially from the gene that has least
 \usage{
 SeqKNN(data, k)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{data}{matrix or dataframe, 1 row corresponds to 1 gene, 1 column to 1 sample,colnames and rownames can be used}
   \item{k}{number of nearest neighbors}
@@ -18,16 +17,10 @@ SeqKNN(data, k)
 }
 \references{ Ki-Yeol Kim, Byoung-Jin Kim, Gwan-Su Yi (2004.Oct.26) "Reuse of imputed data in microarray analysis increases imputation efficiency", BMC Bioinformatics 5:160.  }
 \author{Ki-Yeol Kim and Gwan-Su Yi}
-% \note{ ~~further notes~~ }
- % ~Make other sections like Warning with 
- % \section{Warning }{....} ~
-% \seealso{ ~~objects to See Also as \code{\link{~~fun~~}}, ~~~ }
 \examples{
 \dontrun{data(khan05)
 imputedData<-SeqKNN(khan05,10)
 }
-
- }
-%\concept{imputation}% at least one, from doc/KEYWORDS
+}
 \keyword{classes}% at least one, from doc/KEYWORDS
-% \keyword{imputation }% __ONLY ONE__ keyword per line
+

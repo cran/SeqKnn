@@ -1,0 +1,5 @@
+SeqKNN                  Sequential KNN imputation method
+khan05                  Khan et al.'s Small Round Blood Cell
+                        Tumor(SRBCT) data
+nnmiss                  Selects k nearest neighbors and calculates
+                        weighted mean of them
